@@ -10,17 +10,22 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
+  name: 'Nizar Sanchez',
   subtitle: '',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'profile.jpeg',
+  paragraphOne: `I'm a computer science student that is looking for a place to apply all my knowledge in the
+  area.I'm proactive visionary and result oriented person able to get knowledge by myself and give
+  the best results`,
+  paragraphTwo: `The only way to get that is getting focused and deleting all distractions that are in my work
+  environment that could affect my every-day performance. By doing this, I get done with each
+  sprint-backlog in order to meet the business goals.`,
+  paragraphThree: `I have some experience working with agile methodologies as SCRUM and also xP(eXtreme
+    Programing)`,
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,12 +33,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'robofriends.png',
+    title: 'Robofriends',
+    info: 'Web App that enable users search robots from internet',
+    info2: 'Tecnologies used: HTML,CSS,Javascript,React.js',
+    url: 'https://nizar4790k.github.io/robofriends/',
+    repo: 'https://github.com/Nizar4790k/robofriends', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
