@@ -26,7 +26,7 @@ export const aboutData = {
   sprint-backlog in order to meet the business goals.`,
   paragraphThree: `I have some experience working with agile methodologies as SCRUM and also xP(eXtreme
     Programing)`,
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/15BlxNOALxXGloaIzwvryVgl4h9yTxf45/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -47,7 +47,7 @@ export const projectsData = [
     info: 'Is a web about that you can read some information about some games',
     info2: 'Tecnologies used: HTML,CSS,Javascript,React.js',
     url: 'https://nizar4790k.github.io/GamesClub/',
-    repo: 'https://nizar4790k.github.io/GamesClub/', // if no repo, the button will not show up
+    repo: 'https://github.com/Nizar4790k/GamesClub', // if no repo, the button will not show up
   },
  
 ];
