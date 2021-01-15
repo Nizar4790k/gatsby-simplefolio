@@ -19,12 +19,13 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne: `I'm a computer science student that is looking for a place to apply all my knowledge in the
-  area.I'm proactive visionary and result oriented person able to get knowledge by myself and give
-  the best results`,
-  paragraphTwo: `The only way to get that is getting focused and deleting all distractions that are in my work
+  area.`,
+  paragraphTwo:`I'm proactive visionary and result oriented person able to get knowledge by myself and give
+  the best results.`,
+  paragraphThree: `The only way to get that is getting focused and deleting all distractions that are in my work
   environment that could affect my every-day performance. By doing this, I get done with each
   sprint-backlog in order to meet the business goals.`,
-  paragraphThree: `I have some experience working with agile methodologies as SCRUM and also xP(eXtreme
+  paragraphFour: `I have some experience working with agile methodologies as SCRUM and also xP(eXtreme
     Programing)`,
   resume: 'https://drive.google.com/file/d/15BlxNOALxXGloaIzwvryVgl4h9yTxf45/view?usp=sharing', // if no resume, the button will not show up
 };
@@ -33,12 +34,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'robofriends.png',
-    title: 'Robofriends',
-    info: 'Web App that enable users search robots from internet',
+    img: 'AlienBuddies.png',
+    title: 'Alienbuddies',
+    info: 'Web App that enable users search aliens from internet',
     info2: 'Tecnologies used: HTML,CSS,Javascript,React.js',
-    url: 'https://nizar4790k.github.io/robofriends/',
-    repo: 'https://github.com/Nizar4790k/robofriends', // if no repo, the button will not show up
+    url: 'https://nizar4790k.github.io/alienbuddies/',
+    repo: 'https://github.com/Nizar4790k/alienbuddies', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -77,5 +78,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
