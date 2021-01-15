@@ -42,29 +42,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'Gamesclub.png',
+    title: 'GamesClub',
+    info: 'Is a web about that you can read some information about some games',
+    info2: 'Tecnologies used: HTML,CSS,Javascript,React.js',
+    url: 'https://nizar4790k.github.io/GamesClub/',
+    repo: 'https://nizar4790k.github.io/GamesClub/', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+ 
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'nizar4790k@gmail.com',
 };
 
 // FOOTER DATA
@@ -88,7 +80,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Nizar4790k',
     },
   ],
 };
