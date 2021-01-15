@@ -64,24 +64,14 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'github',
       url: 'https://github.com/Nizar4790k',
     },
+    {
+      id:nanoid(),
+      name:'telegram',
+      url:'https://t.me/Nizar4790k',
+    }
   ],
 };
 
