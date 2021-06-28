@@ -61,6 +61,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'MoviesInc.png',
+    title: 'Movies.Inc',
+    info: 'Movies web page based on TheMovieDB API.',
+    info2: `Tecnologies used: HTML,CSS,Javascript,React.js,Bootstrap`,
+    url: 'https://movies-inc.herokuapp.com/',
+    repo: 'https://github.com/Nizar4790k/movies-inc', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'SmartBrain.png',
     title: 'SmartBrain',
     info: 'Web dectection face app using Clarifai API that contains a pre-trained face detection model.',
