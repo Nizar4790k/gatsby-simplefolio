@@ -11,14 +11,14 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Nizar Sanchez',
-  subtitle: `I'm  a junior software developer`,
-  cta: '',
+  subtitle: `I'm  a software developer`,
+  cta: 'More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpeg',
-  paragraphOne: `I'm a junior software developer that is looking for a place to apply all my knowledge in the
+  paragraphOne: `I'm a software developer that is looking for a place to apply all my knowledge in the
   area.`,
   paragraphTwo:`I'm proactive visionary and result oriented person able to get knowledge by myself and give
   the best results.`,
@@ -27,7 +27,7 @@ export const aboutData = {
   sprint-backlog in order to meet the business goals.`,
   paragraphFour: `I have experience working with agile methodologies as SCRUM and also xP(eXtreme
     Programing)`,
-  resume: 'https://drive.google.com/file/d/15BlxNOALxXGloaIzwvryVgl4h9yTxf45/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/16XwaUaH0Try1NvK-Z0R8UFQICBvCMKn_/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
